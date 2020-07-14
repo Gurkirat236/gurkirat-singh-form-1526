@@ -1,0 +1,71 @@
+<?php
+include 'server-side-script/handle-form.php';
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>GraphicsNation</title>
+	<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Saira+Condensed:wght@400;500;700;900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+	<header>
+		<a href="#">Home</a>
+		<a href="#">Contact</a>
+		<a href="#">Blog</a>
+	</header>
+
+	<section class="masthead">
+		<div class="main-content">
+			<form action="index.php" method="post">
+				<fieldset>
+  					<legend>Form Assignment</legend>
+					<div class="grid">
+						<div class="div1">
+							<label for="input1">Full Name</label>
+							<input type="text" name="input1" id="input1" >
+						</div>
+
+						<div class="div2">
+							<label for="input2">Email</label>
+							<input type="text" name="input2" id="input2" >
+						</div>
+
+						<div class="div3">
+							<label for="input3">Message</label><br>
+							<textarea name="input3" id="input3"></textarea>
+						</div>
+
+						<div class="div4">
+							<input type="submit" name="input4" id="input4" >
+						</div>
+					</div>
+				</fieldset>
+			</form>
+			
+		</div>
+	</section>
+
+	<footer>
+		<h1 class="heading">GraphicsNation</h1>
+		<p>
+			Address: 1800 Baseline,<br>
+			K2C 3N1<br>
+			Ottawa, Ontario<br>
+			Phone: +1-6138694947
+		</p>
+		<div class="social-links">
+			<a href="https://in.pinterest.com/gurkiratsinghsa/"><i class="fa fa-pinterest"> Pinterest</i></a>
+			<a href="mailto:gurkiratsingh236@gmail.com"><i class="fa fa-envelope-o"></i> GMail</a>
+			<a href="mailto:sing1418@algonquinlive.com"><i class="fa fa-at"></i> Live</a>
+			<a href="mailto:gurkirat.s.sandhu@gmail.com"><i class="fa fa-envelope"></i> Email</a>
+		</div>
+	</footer>
+
+	<script type="text/javascript" src="js/script"></script>
+
+</body>
+</html>
